@@ -164,6 +164,10 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
+	dw BugBuzzAnim
+	dw SludgeBombAnim
+	dw ShadowBallAnim
+	dw PowderSnowAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -385,6 +389,10 @@ HornDrillAnim:
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 2
 	db -1 ; end
 
+BugBuzzAnim:
+SludgeBombAnim:
+ShadowBallAnim:
+PowderSnowAnim:
 TackleAnim:
 	battle_anim LEECH_SEED, SE_MOVE_MON_HORIZONTALLY
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
