@@ -162,7 +162,7 @@ Moves:
 	move PSYWAVE,      SPECIAL_DAMAGE_EFFECT,        1, PSYCHIC_TYPE,  80, 15
 	move SPLASH,       SPLASH_EFFECT,                0, NORMAL,       100, 40
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, POISON,       100, 40
-	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,        90, WATER,         85, 10
+	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,        90, FIGHTING,      85, 10
 	move EXPLOSION,    EXPLODE_EFFECT,             170, NORMAL,       100,  5
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,        80, 15
 	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,        90, 10
@@ -175,5 +175,9 @@ Moves:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
+	move BUG_BUZZ,     NO_ADDITIONAL_EFFECT,        90, BUG,          100, 10
+	move SLUDGE_BOMB,  NO_ADDITIONAL_EFFECT,        90, POISON, 	  100, 10
+	move SHADOW_BALL,  NO_ADDITIONAL_EFFECT,        80, GHOST,        100, 15
+	move POWDER_SNOW,  NO_ADDITIONAL_EFFECT,        40, ICE, 		  100, 25
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS
